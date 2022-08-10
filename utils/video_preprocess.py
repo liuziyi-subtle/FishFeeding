@@ -4,6 +4,7 @@ from typing import Sequence
 import numpy as np
 from numpy import ndarray
 
+'x'
 
 def create_video(frames: Sequence[ndarray], out: str, fourcc: int, fps: int,
                  size: tuple) -> None:
